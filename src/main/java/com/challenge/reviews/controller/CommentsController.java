@@ -17,7 +17,7 @@ import java.util.List;
  * Spring REST controller for working with comment entity.
  */
 @RestController
-@RequestMapping("/comments")
+@RequestMapping("/api/comments")
 public class CommentsController {
 
     private final CommentRepository commenRepository;

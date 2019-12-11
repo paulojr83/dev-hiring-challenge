@@ -21,7 +21,7 @@ import java.util.Set;
  * Spring REST controller for working with review entity.
  */
 @RestController
-@RequestMapping("/reviews")
+@RequestMapping("/api/reviews")
 public class ReviewsController {
 
     private final ReviewRepository reviewRepository;

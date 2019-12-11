@@ -17,7 +17,7 @@ import java.util.List;
  * Spring REST controller for working with product entity.
  */
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/api/products")
 public class ProductsController {
 
     private final ProductRepository productRepository;
